@@ -24,7 +24,7 @@
         </div>
 
         <div class="menu"> <!-- inicio menu -->
-            <a id="menubolder" href="index.html">ÍNICIO</a> / <a href="../d09/pages/playlists/playlist.html">PLAYLISTS</a> / <a href="../d09/pages/artigos/artigos.html">ARTIGOS</a>
+            <a id="menubolder" href="index.html">ÍNICIO</a> / <a href="pages/playlists/playlist.html">PLAYLISTS</a> / <a href="pages/artigos/artigos.html">ARTIGOS</a>
         </div> <!-- fim menu -->
 
     </header> <!-- fim heaer -->
@@ -63,12 +63,12 @@
             </section>
 
         <h3 class="h3-inline">DICAS</h3>
-            <button id="showhide" onclick="clicou()">
+            <button id="showhide" onclick="clicouDicas()">
                 <span id="icon-btn" class="material-symbols-outlined">
                     expand_more
                     </span>
             </button>
-            <section class="playlist">
+            <section class="dicas">
                 <p>Estude sempre com cardeno e caneta em mãos, anote o que achar importante para que futuramente caso esqueça de algo ("todos nós esquecemos") possa consultar e resolver sua dúvida facilmente! :D</p>
             </section>
 
@@ -97,23 +97,11 @@
 
     </main> <!-- fim main -->
 
+
+    <!-- scrpt home -->
+    <script src="js/index.js"></script>
+
+    <!-- script pag playlis -->
     <script src="js/playlist.js"></script>
-
-    <script>
-        let destaq = document.querySelector('.destaq')
-        let btnright = document.querySelector('#btnright')
-        let btnleft = document.querySelector('#btnleft')
-
-        function entrou() {
-            document.querySelector('.destaq').scrollLeft += 150;
-        }
-
-        function  entrouL() {
-            document.querySelector('.destaq').scrollLeft -= 150;
-        }
-
-    </script>
-
-
 </body>
 </html>

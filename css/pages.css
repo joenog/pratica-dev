@@ -14,15 +14,9 @@
 }
 
 /* CONFIG DO HEADER  */
-html, body {
-height: 100vh;
-background: 
-        url(../images/background01.png), 
-        linear-gradient(50deg, #3d098659, #2020);
-        background-blend-mode: multiply, normal;
-        background-size: contain;
+body {
+    background-image: linear-gradient(50deg, #3d098659, #2020) ;
 }
-
 
 header {
     padding: 40px  30px;
@@ -135,6 +129,15 @@ header .menu {
     border-radius: 5px;
 }
 
+.jscript-h3 {
+    background-color: rgb(107, 75, 5);
+    color: white;
+    margin: 15px 0px -15px 0px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 
 
 /* INICIO CONFIG DESTAQUE */
@@ -164,7 +167,7 @@ h3 {
 
 /* CONFIG PLAYLIST */
 
-.playlisthtml, .playlistlogica {
+.playlisthtml, .playlistlogica, .playlistJscript {
     display: none;
     background-color: white;
     border-radius: 5px;

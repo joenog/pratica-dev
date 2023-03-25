@@ -17,6 +17,10 @@ body {
 }
 
 /* LINKS CONFIG GERAL  */
+
+a {
+    color: #371563;
+}
 a:active {
     color: #230e3f;
 }

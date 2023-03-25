@@ -18,6 +18,17 @@ body {
     background-image: linear-gradient(50deg, #3d098659, #2020) ;
 }
 
+/* LINKS CONFIG GERAL  */
+a:active {
+    color: #230e3f;
+}
+
+/* FIM LINKS CONFIG GERAL */
+
+main {
+    height: 100vh;
+}
+
 header {
     padding: 40px  30px;
     display: grid;
@@ -112,7 +123,7 @@ header .menu {
 
 /* configuranto titulo das playlist  */ 
 .htm-h3 {
-    background-color: rgb(5, 5, 107);
+    background-color: #05056b;
     color: white;
     margin: 15px 0px -15px 0px;
     padding: 20px;
@@ -121,7 +132,7 @@ header .menu {
 }
 
 .logic-h3 {
-    background-color: rgb(107, 5, 39);
+    background-color: #6b0527;
     color: white;
     margin: 15px 0px -15px 0px;
     padding: 20px;
@@ -130,7 +141,7 @@ header .menu {
 }
 
 .jscript-h3 {
-    background-color: rgb(107, 75, 5);
+    background-color: #6b4b05;
     color: white;
     margin: 15px 0px -15px 0px;
     padding: 20px;
@@ -191,6 +202,23 @@ button {
     vertical-align: middle;
 }
 
+/* BOTAO DENTRO DAS PLAYSLIST  */ 
+
+.btnPlaylist {
+    display: inline-block;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    color: white;
+} .btnPlaylist, a {
+    text-decoration: none;
+}
+/*FIM --- BOTAO DENTRO DAS PLAYSLIST  */ 
+
+
+
 .h3-inline {
     display: inline-block;
 }
@@ -203,3 +231,19 @@ button {
     display: block;
     width: 100%;
 }
+
+/* FOOTER  */
+footer {
+    background-color: #1d1d1d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+footer a {
+    color: var(--cor0);
+}
+
+/* FIM - FOOTER  */
